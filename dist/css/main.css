@@ -67,11 +67,11 @@
   transform: translate3d(0, 0, 0);
 }
 .menu-branding .portrait {
-  width: 250px;
-  height: 250px;
+  width: 150px;
+  height: 150px;
   background: url("../img/portrait.jpg");
   border-radius: 50%;
-  border: solid 3px #ffa500;
+  border: solid 5px #ffa500;
 }
 .menu .nav-items {
   transform: translate3d(600px, 0, 0);
@@ -127,7 +127,7 @@ body {
   line-height: 1.5;
 }
 body#bg-img {
-  background: url(../img/background.jpg);
+  background: url(../img/background.png);
   background-attachment: fixed;
   background-size: cover;
 }
@@ -343,8 +343,8 @@ main#home h1 {
   }
   .menu-branding .portrait {
     background: url("..//img/portrait_small.jpg");
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
   }
   .about-info {
     grid-template-areas:
